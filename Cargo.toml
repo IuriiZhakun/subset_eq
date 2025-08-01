@@ -1,0 +1,17 @@
+[package]
+name = "subset_eq"
+version = "0.1.0"
+edition = "2021"
+authors = ["Iurii Zhakun <yurij.zhacun@gmail.com>"]
+description = "Procedural attribute macro to compare structs while ignoring specified fields (keeps default PartialEq intact)."
+license = "MIT OR Apache-2.0"
+repository = "" # fill in when published
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { version = "2.0", features = ["full", "extra-traits"] }
+quote = "1.0"
+proc-macro2 = "1.0"
+
