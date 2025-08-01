@@ -52,4 +52,3 @@ fn subset_eq_fails_on_real_diff() {
     };
     assert!(!a.eq_ignoring_meta(&different));
 }
-
