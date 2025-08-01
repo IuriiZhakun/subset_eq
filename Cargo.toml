@@ -3,9 +3,11 @@ name = "subset_eq"
 version = "0.1.0"
 edition = "2021"
 authors = ["Iurii Zhakun <yurij.zhacun@gmail.com>"]
-description = "Procedural attribute macro to compare structs while ignoring specified fields (keeps default PartialEq intact)."
+description = "Procedural attribute macro to compare structs while ignoring specified fields while preserving full PartialEq."
 license = "MIT OR Apache-2.0"
-repository = "" # fill in when published
+repository = "https://github.com/IuriiZhakun/subset_eq"
+homepage = "https://github.com/IuriiZhakun/subset_eq"
+readme = "README.md"
 
 [lib]
 proc-macro = true
